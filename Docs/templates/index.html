@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahuel Falcón</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .navbar {
+            background-color: #1e1e1e !important;
+        }
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+        .card {
+            background-color: #1e1e1e;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nahuel Falcón</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <section id="sobre-mi" class="mb-5">
+            <h2 class="text-primary mb-4 m-4">Sobre mí</h2>
+            <div class="row">
+                <div class="col-md-2 mb-4 mt-1">
+                    <img src="src/img.jpg" alt="Nahuel Falcón" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-10">
+                    <p>
+                        Soy técnico electrónico y estudiante de Ingeniería Informática. Aunque aún no tengo experiencia laboral como programador, me apasiona el software y he aprendido a programar en C/C++, Python y un poco de Kotlin. Además, tengo experiencia en sistemas embebidos y una base sólida en IT, redes, sistemas operativos, etc.
+                        Mi objetivo es encontrar mi primer trabajo como programador y seguir mejorando mis habilidades. Me encanta aprender, soy detallista, bueno trabajando en equipo y resolviendo problemas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="mb-5">
+            <h2 class="text-danger mb-4">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-dark text-white">C/C++</li>
+                        <li class="list-group-item bg-dark text-white">Python</li>
+                        <li class="list-group-item bg-dark text-white">Kotlin</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-dark text-white">APIs</li>
+                        <li class="list-group-item bg-dark text-white">Flask</li>
+                        <li class="list-group-item bg-dark text-white">SQL </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="mb-5">
+            <h2 class="text-primary mb-4">Proyectos</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">info 1.</p>
+                            <a href="#" class="btn btn-primary">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">info 2.</p>
+                            <a href="#" class="btn btn-primary">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">info 3.</p>
+                            <a href="#" class="btn btn-primary">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 4</h5>
+                            <p class="card-text">info 4.</p>
+                            <a href="#" class="btn btn-primary">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="mb-5">
+            <h2 class="text-danger mb-4">Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control bg-dark text-white" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control bg-dark text-white" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control bg-dark text-white" id="mensaje" rows="3" required></textarea>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="">^El mensaje se procesará a través de mi backend^</p>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p>&copy; 2025 Nahuel Falcón. Todos los derechos reservados.</p>
+            <div class="mt-2">
+                <a href="https://github.com/Nahu094" target=”_blank” class="text-white me-3"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/jorge-falc%C3%B3n-93974722a/" target=”_blank” class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/nahu__094/" target=”_blank” class="text-white"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</body>
+</html>
+
